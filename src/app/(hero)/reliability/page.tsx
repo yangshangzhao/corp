@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Hero
-      imgUrl={require('/reliability.webp')}
+      imgUrl={'/reliability.webp'}
       altTxt="Reliability"
       content="Reliability."
     />
