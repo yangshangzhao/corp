@@ -7,10 +7,6 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Hero
-      imgUrl={'/home.webp'}
-      altTxt="Home"
-      content="Welcome to our websit."
-    />
+    <Hero imgUrl="/home.webp" altTxt="Home" content="Welcome to our websit." />
   )
 }
