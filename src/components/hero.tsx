@@ -3,7 +3,7 @@ import React from 'react'
 import Image, { StaticImageData } from 'next/image'
 
 interface IProps {
-  imgUrl: StaticImageData
+  imgUrl: string
   altTxt: string
   content: string
 }
