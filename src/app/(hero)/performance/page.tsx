@@ -1,5 +1,6 @@
 import Hero from '@/components/hero'
 import { Metadata } from 'next'
+import performanceSrc from '../../../../public/performance.webp'
 
 export const metadata: Metadata = {
   title: 'Performance'
@@ -7,6 +8,6 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Hero imgUrl={'/window.svg'} altTxt="Performance" content="Performance." />
+    <Hero imgUrl={performanceSrc} altTxt="Performance" content="Performance." />
   )
 }

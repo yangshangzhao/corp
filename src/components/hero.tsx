@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
-// import homeSrc from '/avatar.jpg'
 
 interface IProps {
   imgUrl: StaticImageData
